@@ -1,5 +1,12 @@
 # HA License Plate Card
 
+## Neutral mobile preview
+
+![Neutral mobile preview of ha-license-plate-card](docs/preview.png)
+
+> Rendered at 390 px mobile width with fictional Home Assistant entities and values. No private dashboard, person, address, camera, or sensor data is included.
+
+
 "Protect Nummerpladevagt" — 14 dages nummerpladehistorik med billeder fra UniFi Protect. Viser seneste registrering stort med billede/afspilning af hændelsen, plus en filtrerbar liste over de sidste 10 hændelser (alle / ukendte / kendte køretøjer).
 
 Kortet er en ren visning oven på en sensor med et `events`-attribut — det kalder ingen UniFi Protect-API direkte, bortset fra Home Assistants indbyggede thumbnail/media-source-endpoints til billeder og videoafspilning.
